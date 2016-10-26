@@ -1,7 +1,7 @@
 # Salsa-Gravity-Forms
 The Salsa for Gravity Forms plugin adds the ability to feed user signup data into Salsa Labs email platform for non-profits easily.
 
-== Description ==
+Description
 
 The Salsa for Gravity Forms plugin adds the ability to feed user signup data into Salsa Labs email platform for non-profits easily.
 
@@ -19,7 +19,7 @@ Features:
 *   Ability to setup admin groups or hidden groups that users will automatically be added to
 
 
-== Installation ==
+Installation
 
 Before installing you must have 
 
@@ -29,47 +29,26 @@ Before installing you must have
 3. Use the Settings->Gravity Form Integration with SalsaLabs, screen to configure the plugin
 4. Once activated click on Forms->Settings->Salsa to add your Organization ID, and a super user, username and password for your Salsa Labs instance.
 
-== Frequently Asked Questions ==
+Frequently Asked Questions
 
-= Where do I find my organization ID in Salsa? =
+Where do I find my organization ID in Salsa?
 
 In the profile menu dropdown you will see your organization ID. Follow this knowlege base article for detailed instructions
 
 https://help.salsalabs.com/entries/23473682-Where-s-my-organization-key-
 
-= What level of access does the Salsa credentials need to be? =
+What level of access does the Salsa credentials need to be?
 
 In order to use the Salsa API you must add super user credentials for your Salsa instance. This is a super user, campaign manager account.
 
-= How do I add groups? =
+How do I add groups?
 
 You can add groups by dragging the group field from the standard fields list into your gravity forms, or you can map groups to checkboxes or dropdown field items by using the appropriate gravity forms group item.
 
-= How do I map fields? =
+How do I map fields?
 
 You map fields at the field level, simply edit the field, and select the appropriate Salsa element that your field matches to, for example First Name would map to f_name in the list, if you do not map fields, then no data will flow into salsa. 
 
-= No data is going into salsa, what gives? =
+No data is going into salsa, what gives?
 
 You likely forgot to enable Salsa for the form. There is a Salsa form option dropdown at the form level with a single checkbox that tells the form, this is a salsa form and it should transmit mapped fields and data to salsa.  
-
-== Screenshots ==
-
-1. State Group item in Gravity Forms.
-2. Map groups to standard choice fields.
-3. Add State fields and map to corresponding Salsa Group IDs.
-4. Map state fields or other bulk fields to Salsa Group IDs.
-5. Primary authentication connection screen
-6. Map standard fields to Salsa fields or custom fields.
-7. Setup the Salsa data transmission.
-8. Enable Salsa on a form
-
-== Changelog ==
-
-= 1.0 =
-* Initial Release
-
-== Upgrade Notice ==
-
-= 1.0 =
-Initial Release
