@@ -1,0 +1,58 @@
+ #wdm-grp-list{
+  width:100%;
+  padding:.5em 0;
+  max-height:550px !important;
+}
+#wdm-grp-table{
+  width:100%;
+  border-collapse: collapse;
+  table-layout: auto !important;
+
+}
+#wdm-grp-table thead tr {
+  background:#0083B7;
+  color:#FFFFFF;
+}
+#wdm-grp-table th,
+#wdm-grp-table td {
+  text-align:center;
+}
+#wdm-grp-tbody  tr{
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.wdm-grps .ui-dialog .ui-dialog-title {
+  float:none !important;
+}
+.wdm-grps .simple-pagination{
+  padding:10px;
+}
+.wdm-grps .ui-dialog .ui-dialog-titlebar-close{
+ float:right;
+}
+.wdm-grps .ui-widget-header {
+  border:0 !important;
+  background:none !important;
+  text-align:center !important;
+}
+.wdm-grps .ui-dialog.ui-widget.ui-widget-content{
+  width:40% !important;
+  border: 1px solid #999999;
+}
+tr.wdm-salsa-grp-list {
+  height: 30px;
+}
+#map_field{
+ width: 50%;
+}
+.success_msg{
+ font-size: 15px;
+ color: green;
+ font-weight: bold;
+}
+.error_msg{
+ font-size: 15px;
+ color: red;
+ font-weight: bold;
+}
+.wdm-salsa-grp-list:hover{cursor:pointer }
